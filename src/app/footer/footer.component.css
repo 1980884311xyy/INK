@@ -1,0 +1,72 @@
+
+.foot{
+    width:100%;
+    height:384px;
+    background: black;
+    overflow: hidden;
+}
+.foot .icon{
+    width:246px;
+    height:70;
+    margin:0 auto;
+    margin-top:166px;
+    display: flex;
+    justify-content: space-between;
+}
+.foot .icon a i{
+    width:32px;
+    height:43px;
+    font-size:32px;
+    color: rgb(170, 168, 168);
+    position: absolute;
+    top:0;
+    left:0;
+    right: 0;
+    bottom: 0;
+    margin:auto;
+
+}
+.foot .icon a{
+    position: relative;
+    width:60px;
+    height:60px;
+    border:3px solid rgb(170, 168, 168);
+    border-radius: 50%;
+}
+.foot .icon a:hover{
+    text-decoration: none;
+    width:60px;
+    height:60px;
+    border:3px solid rgb(253, 251, 251);
+    border-radius: 50%;
+}
+.foot .icon a:hover i{
+    color:white;
+}
+
+.foot >p{
+    color:#ccc;
+}
+.foot >p>a{
+    color:#ccc;
+    padding:0 8px;
+}
+.foot >p>a:hover{
+    color:white;
+    text-decoration: none;
+}
+.foot p:nth-child(2){
+    width:554px;
+    height:23px;
+    font-size: 14px;
+    margin:0 auto;
+    margin-top:30px;
+}
+
+.foot p:nth-child(3){
+    width:370px;
+    height:23px;
+    font-size: 14px;
+    margin:0 auto;
+    margin-top:20px;
+}

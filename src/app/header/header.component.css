@@ -1,0 +1,26 @@
+.head{
+    width:144px;
+    height:30px;
+    position: absolute;
+    top:20px;
+    right: 30px;
+}
+.head a{
+    display: block;
+    width:30%;
+    height:30px;
+    float: left;
+}
+.head a:hover{
+    text-decoration: none;
+}
+.head a i{
+    display: block;
+    width:100%;
+    height:30px;
+    font-size: 24px;
+    color:white;
+}
+.head a i:hover{
+    color:rgb(145, 142, 142);
+}
